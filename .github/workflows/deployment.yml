@@ -53,7 +53,7 @@ jobs:
       
       - name: Copy files to target folder
         run: |
-          mkdir -p /blazorapppath
-          cp -r ./publish/* /blazorapppath
+          sudo mkdir -p /blazorapppath
+          sudo cp -r ./publish/* /blazorapppath
 
   
